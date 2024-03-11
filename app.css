@@ -1,0 +1,93 @@
+body {
+  background-color: black;
+}
+#info,
+#processedInfo {
+  width: 100%;
+}
+textarea {
+  resize: none;
+}
+
+#info:focus {
+  border: solid 5px red;
+}
+
+#processedInfo:focus {
+  border: solid 5px green;
+}
+#processedInfo {
+  background-color: white;
+}
+.custombtn {
+  width: 30%;
+}
+
+h1 {
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.result {
+  border: solid 1px white;
+  max-height: 400px;
+  max-width: 1080px;
+  overflow: hidden;
+  height: 400px;
+  width: 1080px;
+  background-color: white;
+}
+
+#generated {
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+#canvas {
+  border: solid red 2px;
+}
+
+.coords,
+.coords2 {
+  font-size: 25px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: red;
+  position: absolute;
+  z-index: 9999;
+}
+
+.lightblue {
+  color: lightblue;
+}
+
+#outputTable {
+  max-height: 246px;
+  overflow-y: scroll;
+  background-color: #343a40;
+}
+th {
+  background-color: #212124;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+/*CUSTOM BAR*/
+::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+  height: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #3c4043 !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #202124 !important;
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid #3c4043; /* creates padding around scroll thumb */
+}

@@ -1,0 +1,5 @@
+Id a = 28, Id z = 220
+Template 500, z
+Line 0, 0, 25,100
+Line 20, a, 25,100
+Line 50, 18, 250,10
